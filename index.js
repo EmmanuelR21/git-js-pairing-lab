@@ -89,3 +89,16 @@ function betweenTwentyAndForty(num) {
 
 //console.log(betweenTwentyAndForty(20));
 
+//problem 10
+function largest(num1, num2, num3){
+    let largest = 0
+    if (num1 > num2){
+        largest = num1
+    } else {
+        largest = num2
+    }
+    if (largest > num3){
+        return largest
+    } else return num3
+}
+//console.log(largest(30, 22, 17))
