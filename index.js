@@ -53,4 +53,18 @@ function multiply(num1, num2) {
 function add(num1, num2){
     return num1 + num2;
 }
-console.log(add(10, 5));
+//console.log(add(10, 5));
+
+//problem 7
+
+function isNegative(num) {
+    if(num < 0) {
+        return true;
+    } else if(num === 0){
+        return 'This number is neutral.'
+    } else {
+        return false;
+    }
+}
+
+console.log(isNegative(0));
