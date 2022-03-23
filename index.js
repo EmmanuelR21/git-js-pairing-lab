@@ -102,3 +102,14 @@ function largest(num1, num2, num3){
     } else return num3
 }
 //console.log(largest(30, 22, 17))
+
+//BONUS
+//Problem 11
+
+function printTime() {
+    let time = new Date();
+    return `${time.getHours()}:${time.getMinutes()}:${time.getSeconds()}`;
+}
+
+console.log(printTime());
+
