@@ -39,3 +39,11 @@ function untilNum(num){
 }
 
 //untilNum(10)
+
+//problem 5
+
+function multiply(num1, num2) {
+    console.log(num1 * num2);
+}
+
+//multiply(3, 9);
