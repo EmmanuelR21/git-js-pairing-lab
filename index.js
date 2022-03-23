@@ -104,6 +104,7 @@ function largest(num1, num2, num3){
 //console.log(largest(30, 22, 17))
 
 //BONUS
+
 //Problem 11
 
 function printTime() {
@@ -111,5 +112,16 @@ function printTime() {
     return `${time.getHours()}:${time.getMinutes()}:${time.getSeconds()}`;
 }
 
-console.log(printTime());
+//console.log(printTime());
 
+//problem 12
+
+function isLeapYear(year){
+    if (year % 4 === 0) {
+        return true
+    } else {
+        return false
+    }
+}
+
+//console.log(isLeapYear(1800))
