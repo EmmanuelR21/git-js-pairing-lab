@@ -125,3 +125,11 @@ function isLeapYear(year){
 }
 
 //console.log(isLeapYear(1800))
+
+//problem 13
+
+function getExtension(file) {
+    return "." + file.split('.').pop();
+}
+
+console.log(getExtension("Book.mp3"));
