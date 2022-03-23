@@ -47,3 +47,10 @@ function multiply(num1, num2) {
 }
 
 //multiply(3, 9);
+
+// problem 6
+
+function add(num1, num2){
+    return num1 + num2;
+}
+console.log(add(10, 5));
