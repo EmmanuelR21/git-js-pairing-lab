@@ -32,3 +32,10 @@ function multiplesOfThreeOrFive() {
 
 //multiplesOfThreeOrFive();
 
+//problem 4
+
+function untilNum(num){
+    for (let i = 1; i <= num; i++) console.log(i)
+}
+
+//untilNum(10)
