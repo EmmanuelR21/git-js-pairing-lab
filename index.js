@@ -132,4 +132,15 @@ function getExtension(file) {
     return "." + file.split('.').pop();
 }
 
-console.log(getExtension("Book.mp3"));
+//console.log(getExtension("Book.mp3"));
+
+//problem 14
+
+function absolute19(num){
+    let absoluteValue = Math.abs(num - 19)
+    if (num > 19){
+        return 3 * absoluteValue
+    }
+}
+
+//console.log(absolute19(22))
