@@ -144,3 +144,10 @@ function absolute19(num){
 }
 
 //console.log(absolute19(22))
+
+//problem 15
+
+function switchLetters(string) {
+    
+    
+}
