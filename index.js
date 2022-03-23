@@ -148,9 +148,18 @@ function absolute19(num){
 //problem 15
 
 function switchLetters(string) {
+    let emptyString = ""
     
+    for(let i = 0; i < string.length; i++) {
+        if(i != 0 && i != string.length - 1) {
+            emptyString += string[i]
+            //console.log(i);
+        }
+    }return string[string.length - 1] + emptyString + string[0]
     
 }
+
+console.log(switchLetters("Emmanuel"));
 
 //problem 16
 
